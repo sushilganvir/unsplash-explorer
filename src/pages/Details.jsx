@@ -32,7 +32,7 @@ const Details = () => {
 
         <div className="w-[80vw] md:h-[70vh] aspect-square md:aspect-video m-auto rounded-2xl relative">
           <img
-            src={unitPhoto?.urls.raw}
+            src={unitPhoto?.urls?.raw}
             alt={unitPhoto?.alt_description}
             className={
               (isLoading && "hidden") ||
