@@ -1,2 +1,2 @@
-export const BASE_URL = "https://api.unsplash.com/";
-export const ACCESS_KEY = "exeHcuGFFhgq9JSTn6MXRVNTcKJO8HIEwRQf2SeGphE"
+export const BASE_URL = import.meta.env.VITE_BASE_URL;
+export const ACCESS_KEY = import.meta.env.VITE_ACCESS_KEY
